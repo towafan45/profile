@@ -1,5 +1,73 @@
 @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300&display=swap');
 
 body {
+    height: 5%; 
+    background-color: hsl(185, 75%, 39%);
+    background-repeat: no-repeat;
+    background-size: cover;
     font-family:  'Kumbh Sans', sans-serif; 
+    /* css comment */
+    background-image: url("design/desktop-design.jpg"); 
+}
+
+.attribution { 
+    font-size: 11px; text-align: center; 
+}
+
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+.top {
+    position: absolute;
+    bottom: 46vh; 
+}
+
+.bottom {
+    position: absolute;
+    top: 54vh; 
+    left: 120vh; 
+}
+
+.group {
+    position: absolute;
+    top: 25vh;
+    left: 79vh;
+}
+
+.container {
+    width: 329px;
+    height: 350px;
+    background-color: white;
+    border-radius: 14px; 
+    /* css comment */
+    opacity: 0.5; 
+}
+
+.proimg {
+    border-top-left-radius: 14px;
+    border-top-right-radius: 14px;
+    position: absolute;
+    top: -1vh;
+}
+
+.victor {
+    border: 5px solid white;
+    border-radius: 50%;
+    position: absolute;
+    top: 12vh; 
+    left: 17vh; 
+}
+
+.container p {
+    font-size: 18px; 
+}
+
+.name {
+    color: #121212; 
+    font-style: bold;
+}
+
+.age, .state {
+    color: hsl(0, 0%, 59%)
 }
