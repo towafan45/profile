@@ -92,7 +92,7 @@ body {
     border-top: 1px solid #bfbfbf;
     padding: 18px;
     position: absolute;
-    top: 77%;
+    top: 77%; 
 }
 
 .number1u, .number2u, .number3u {
@@ -134,6 +134,6 @@ body {
 .number3u {
     position: absolute;
     top: 36px;
-    left: 239px;
+    left: 242px;
     font-size: 11px;
 }
