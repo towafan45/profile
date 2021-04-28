@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@300;700&display=swap');
 
 body {
     height: 5%; 
@@ -6,8 +6,7 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
     font-family:  'Kumbh Sans', sans-serif; 
-    /* css comment */
-    background-image: url("design/desktop-design.jpg"); 
+    /* background-image: url("design/desktop-design.jpg"); */
 }
 
 .attribution { 
@@ -40,8 +39,7 @@ body {
     height: 350px;
     background-color: white;
     border-radius: 14px; 
-    /* css comment */
-    opacity: 0.5; 
+    /* opacity: 0.5; */
 }
 
 .proimg {
@@ -64,10 +62,78 @@ body {
 }
 
 .name {
-    color: #121212; 
-    font-style: bold;
+    color: #121212;  
+    font-weight: 800; 
+    position: absolute;
+    top: 29vh;
+    left: 16vh; 
+}
+
+.age {
+    position: absolute;
+    top: 29vh;
+    left: 32vh; 
+    font-size: 16px;
+}
+
+.state {
+    position: absolute;
+    top: 34vh; 
+    left: 22vh;
+    font-size: 12px;
 }
 
 .age, .state {
-    color: hsl(0, 0%, 59%)
+    color: hsl(0, 0%, 59%);
+    font-weight: 200; 
+}
+
+.content2 {
+    border-top: 1px solid #bfbfbf;
+    padding: 18px;
+    position: absolute;
+    top: 77%;
+}
+
+.number1u, .number2u, .number3u {
+    font-size: 11px; 
+    color: hsl(0, 0%, 59%);
+    font-weight: 200;
+}
+
+.number1 {
+    position: absolute;
+    top: 8px;
+    left: 56px;
+}
+
+.number1u {
+    position: absolute;
+    top: 36px;
+    left: 46px;
+}
+
+.number2 {
+    position: absolute;
+    top: 8px;
+    left: 145px;
+}
+
+.number2u {
+    position: absolute;
+    top: 36px;
+    left: 151px;
+}
+
+.number3 {
+    position: absolute;
+    top: 8px;
+    left: 242px;
+}
+
+.number3u {
+    position: absolute;
+    top: 36px;
+    left: 239px;
+    font-size: 11px;
 }
